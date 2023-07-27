@@ -5,7 +5,11 @@
     list-style-type: none;
     text-decoration: none;
 }
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Habibi&family=Roboto:wght@300;400;500;700;900&display=swap');
 
+body{
+    font-family: 'roboto';
+}
 .envio-free{
     justify-content: center;
     align-items: center;
@@ -15,19 +19,179 @@
 
 
 }
-header{
-    padding: 10px;
+.header{
+    position: sticky;
+    width: 100%;
+    height: 80px;
     display: flex;
     justify-content: space-between;
+    background-color: #432818;
+} 
+
+
+
+.header-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-left: 15px;
 }
 .header--logo{
-    width: 100px;
+    height: 85%;
     border-radius: 50%;
 }
 
 .header__navbar{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-list{
+    display: flex;
+    gap: 20px;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-list a{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+/* Menu hamburguesa */
+.header__navbar i{
+    font-size: 36px;
+    display: none;
+    
+}
+
+#toggle-menu{
+    display: none;
+
+}
+
+.user__login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user__login i{
+    padding-right: 20px;
+    font-size: 30px;
+
+}
+/* Section  portada */
+#portada{
+    display: flex;
+    margin: 0 auto;
+    max-width: 2000px;
+    height: 950px;
+   background-image: url(https://assets.website-files.com/6398605b5541055872b8d486/639af71b5d394f6a82e1c7c4_Rectangle%201121.webp);
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+
+}
+#portada h1{
+    color: white;
+    font-size: 150px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.portada__contain{
     display: flex;
 }
-.header__navbar ul{
+
+.portada-cafe{
     display: flex;
+    background-color: beige;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.portada-cafe-descripcion{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Section nosotros */
+#nosotros{
+    /* height: 400px; */
+    display: flex;
+    background-color: white;
+}
+.nosotros-contain{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.nosotros-contain-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+
+}
+.nosotros-contain-text span{
+    font-weight: bold;
+}
+.nosotros-contain-image{
+    width: 50%;
+}
+.nosotros-contain-image img{
+    width: 100%;
+    border-radius: 10px;
+}
+.nosotros-contain-text h2{
+    font-size: 2rem;
+}
+.nosotros-contain-text p{
+    font-size: 1.5rem;
+}
+
+/* Section Nuestro CAfe */
+#nuestroCafe{
+    display: flex;
+    flex-direction: row;
+    max-width: 2000px;
+    /* height: 500px; */
+}
+.cafe__contain{
+    width: 2000px;
+    display: flex;
+}
+
+.cafe__texto, .cafe__imagen{
+    background-color: #4E6C50;
+    width: 50%;
+    height: 600px;
+}
+/* Section contacto */
+#contacto{
+    display: flex;
+    padding: 20px;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    background-color: #432818;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding: 20px;
 }

@@ -1,34 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
     <title>Coffee</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="envio-free">
-        <h2>ENVIOS GRATIS PARA COMPRAS SUPERIORES A $9.000</h2>
+      <h2>ENVIOS GRATIS PARA COMPRAS SUPERIORES A $9.000</h2>
     </div>
     <header class="header">
-        <img src="./assets/img/logo.png" class="header--logo" alt="logo">
-        <nav class="header__navbar">
-            <ul>
-                <li><a href="#">Nuestro café</a></li>
-                <li><a href="$">Sucursales</a></li>
-                <li><a href="#">Capsulas</a></li>
-                <li><a href="#">Cafeteras</a></li>
-            </ul>
-        </nav>
-        <div class="user__login">
-
-        </div>
+      <div class="header-img">
+        <img src="./assets/img/logo.png" class="header--logo" alt="logo" />
+      </div>
+      <nav class="header__navbar">
+        <label for="toggle-menu"
+          ><i class="fa-solid fa-bars" style="color: #f2f4f8"></i
+        ></label>
+        <input type="checkbox" id="toggle-menu" />
+        <ul class="navbar-list">
+          <li><a href="#portada">Home</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#nuestroCafe">Tipos de Café </a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="user__login">
+        <a href="#"><i class="fa-solid fa-user" style="color: #e6e9ef"></i></a>
+      </div>
     </header>
     <main>
+      <section id="portada">
+        <div class="portada__contain">
+          <h1>Priamo Café</h1>
+        </div>
+      </section>
 
+      <div class="portada-cafe">
+        <div class="portada-cafe-descripcion">
+          <img src="./assets/img/cafe-png.png" alt="taza café" />
+          <h3>Aroma Increible</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consectetur, mollitia dolore unde minima magni dolor praesentium.
+            Officia possimus
+          </p>
+        </div>
+        <div class="portada-cafe-descripcion">
+          <img src="./assets/img/emblema.png" alt="calidad" />
+          <h3>Calidad de Granos</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsa
+            adipisci maiores exercitationem ducimus dolores nam maxime.
+            Veritatis, soluta libero.
+          </p>
+        </div>
+        <div class="portada-cafe-descripcion">
+          <img src="./assets/img/granos.png" alt="Granos" />
+          <h3>Tipo de Granos</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            repellat hic deserunt vel cum corporis necessitatibus nisi tempore
+            sunt ratione.
+          </p>
+        </div>
+        <div class="portada-cafe-descripcion">
+          <img src="./assets/img/vaso-cafe.png" alt="vaso cafe" />
+          <h3>Ecovasos recargables</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Perferendis nemo obcaecati a voluptates fuga nobis cum commodi hic
+            quam suscipit.
+          </p>
+        </div>
+      </div>
+
+      <section id="nosotros">
+        <div class="nosotros-contain">
+          <div class="nosotros-contain-text">
+          <h2>
+            ¡Bienvenidos a Priamo Café, el lugar perfecto para disfrutar de
+            momentos inolvidables y un delicioso café!
+          </h2>
+          <p><span>Café de calidad</span>: Nos apasiona el café y seleccionamos cuidadosamente los granos más exquisitos para ofrecerte una amplia variedad de bebidas con sabores y aromas inigualables. Desde el suave y sedoso latte hasta el intenso espresso, cada taza está hecha con esmero y dedicación.</p>
+          <p><span>Experiencia barista</span>: Nuestro talentoso equipo de baristas está capacitado para preparar las bebidas con maestría. Cada taza de café es una obra de arte, y nos enorgullecemos de ofrecerte la mejor experiencia de café en cada visita.</p>
+        </div>
+        <div class="nosotros-contain-image">
+          <img src="./assets/img/about-img.jpg" alt="cafe">
+        </div>
+        </div>
+      </section>
+
+      <section id="nuestroCafe">
+        <div class="cafe__contain">
+          <div class="cafe__texto">
+            <h2>hola</h2>
+          </div>
+          <div class="cafe__imagen">
+            <h2>hola</h2>
+          </div>
+        </div>
+      </section>
+      <section id="contacto">
+        <div class="contacto-contain">
+          <div class="contacto-contain-text">
+           <div></div>
+           <div></div>
+           <div></div>
+          </div>
+
+          <div class="contacto-contain-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9268.317005300712!2d-58.851247004695054!3d-34.78467961955952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bceddea0e6a92b%3A0xce45cc5185e52081!2sPriamo%20Cafe!5e0!3m2!1ses-419!2sar!4v1690491100909!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          
+      </div>
+      </section>
     </main>
-    <footer>
-
+    <footer class="footer">
+      <span>
+        © 2023 Copyright Priamo Café. Todos Los Derechos Reservados.
+      </span>
     </footer>
-</body>
+  </body>
 </html>
