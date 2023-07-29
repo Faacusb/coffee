@@ -5,10 +5,14 @@
     list-style-type: none;
     text-decoration: none;
 }
+html{
+    scroll-padding-top: 27px;
+}
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Habibi&family=Roboto:wght@300;400;500;700;900&display=swap');
 
 body{
     font-family: 'roboto';
+    margin: 0 auto;
 }
 .envio-free{
     justify-content: center;
@@ -21,6 +25,7 @@ body{
 }
 .header{
     position: sticky;
+    top: 0;
     width: 100%;
     height: 80px;
     display: flex;
@@ -93,6 +98,7 @@ body{
    align-items: center;
    justify-content: center;
    text-align: center;
+   background-position: center;
 
 }
 #portada h1{
@@ -113,7 +119,8 @@ body{
     height: 400px;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
+    padding: 0 15px;
 }
 .portada-cafe-descripcion{
     display: flex;
@@ -123,11 +130,19 @@ body{
     align-items: center;
     justify-content: center;
     gap: 10px;
+   
+    text-align: start;
+}
+.portada-cafe-img{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 /* Section nosotros */
 #nosotros{
-    /* height: 400px; */
+    padding-top: 27px;
     display: flex;
     background-color: white;
 }
@@ -165,6 +180,7 @@ body{
 
 /* Section Nuestro CAfe */
 #nuestroCafe{
+    padding-top: 26px;
     display: flex;
     flex-direction: row;
     max-width: 2000px;
@@ -173,6 +189,7 @@ body{
 .cafe__contain{
     width: 2000px;
     display: flex;
+    padding-top: 27px;
 }
 
 .cafe__texto, .cafe__imagen{
@@ -183,7 +200,70 @@ body{
 /* Section contacto */
 #contacto{
     display: flex;
-    padding: 20px;
+    padding: 27px 10px;
+    background-color: #432818;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border-bottom-color: grey;
+
+}
+.contacto-contain{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.contacto-contain-text1{
+    display: flex;
+    flex-direction: row; 
+}
+.contain--text1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    color: #f5f5f5;
+}
+.contain--text1 p{
+    font-size: 1.5rem;
+    width: 50%;
+}
+
+.contain--text1 h2{
+    font-size: 3rem;
+}
+
+.text-redes{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.text-redes i{
+    font-size: 30px;
+}
+.text-contacto-contain{
+    display: flex;
+}
+.contacto-phone{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.contacto-contain-map{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 100%;
+}
+.contacto-contain-map-iframe{
+    width: 50%;
+}
+.contacto-iframe{
+    width: 100%;
 }
 
 /* Footer */
@@ -194,4 +274,8 @@ body{
     justify-content: center;
     font-size: 1.5rem;
     padding: 20px;
+}
+.footer span{
+    font-weight: bold ;
+    color: whitesmoke;
 }
