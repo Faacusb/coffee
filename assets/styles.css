@@ -31,6 +31,7 @@ body{
     display: flex;
     justify-content: space-between;
     background-color: #432818;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
 } 
 
 
@@ -369,4 +370,148 @@ justify-content: space-evenly;
 .footer span{
     font-weight: bold ;
     color: whitesmoke;
+}
+
+/* Media query mobile */
+
+@media (max-width: 576px) {
+    body{
+        width: 100%;
+    }
+
+    }
+    .header__navbar ul{
+        background: brown;
+        width: 100%;
+        height: calc(100vh - 80px);
+        position: absolute;
+        top: 80px;
+        left: 0;
+        flex-direction: column;
+        display: none;
+    }
+
+    .header__navbar i{
+        display: block;
+    }
+
+    #toggle-menu:checked ~ .navbar-list{
+        display: flex;
+    }
+
+    .header__navbar ul{
+        height: auto;
+        background-color: #bc6c25;
+        padding: 10px;
+    }
+
+    /* Section portada */
+    .portada-cafe{
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        gap: 50px;
+        padding: 15px;
+    }
+
+    .portada__contain {
+        width: 100%;
+        align-items: center;
+    justify-content: center;
+    }
+    #portada h1{
+        color: white;
+        display: flex;
+        font-size: 120px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    
+    }
+
+    .portada-cafe-descripcion{
+        
+        height: auto;
+    }
+
+    /* Section Nosotros */
+    .nosotros-contain{
+        width: 100%;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+    .nosotros-contain-text{
+        flex-direction: column;
+        width: 100%;
+    }
+    .nosotros-contain-image{
+        width: 100%;
+    }
+
+    .nosotros-contain-image img{
+        width: 100%;
+        border-radius: 7px;
+    }
+    .nosotros-texto{
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        gap: 20px;
+    }
+
+    /* Section Nuestro Cafe */
+
+    #nuestroCafe{
+        width: 100%;
+    }
+    .cafe__contain{
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .cafe__contain-card{
+        width: 90%;
+    height: 70%;
+    }
+
+    .cafe-card-img{
+        width: 90%;
+    }
+
+    /* Section contacto */
+    .contacto-contain{
+        flex-direction: column;
+    }
+
+    .text-contacto{
+        flex-direction: column;
+    }
+    .contacto-contain-text1{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contain--text1, .contain--text2{
+        display: flex;
+        font-size: 2rem;
+        align-items: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contacto-contain-map{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contacto-contain-map-iframe{
+        width: 100%;
+    }
 }
