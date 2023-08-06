@@ -372,6 +372,11 @@ justify-content: space-evenly;
     color: whitesmoke;
 }
 
+/* Media queryes tablet */
+@media (max-width: 768px){
+
+}
+
 /* Media query mobile */
 
 @media (max-width: 576px) {
@@ -379,7 +384,7 @@ justify-content: space-evenly;
         width: 100%;
     }
 
-    }
+    /* } */
     .header__navbar ul{
         background: brown;
         width: 100%;
