@@ -190,6 +190,14 @@ body{
     justify-content: center;
 
 }
+
+.nosotros-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
 .nosotros-contain-text span{
     font-weight: bold;
 }
@@ -382,18 +390,28 @@ justify-content: space-evenly;
 
     .nosotros-contain{
         flex-direction: column;
+        gap: 30px;
     }
 
     .nosotros-contain-text {
         flex-direction: column;
     }
+    
+
 
     .nosotros-texto{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         gap: 30px;
     }
 
+}
+
+
+/* Section Contacto */
+
+.text-contacto{
+    flex-direction: column;
 }
 
 /* Media query mobile */
