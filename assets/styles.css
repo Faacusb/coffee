@@ -491,6 +491,13 @@ justify-content: space-evenly;
         padding: 10px;
     }
 
+    /* Portada cafe */
+
+    .portada-cafe{
+        height: 500px;
+        
+    }
+
     /* Section nosotros  */
 
     .nosotros-contain{
@@ -502,12 +509,28 @@ justify-content: space-evenly;
         flex-direction: column;
     }
     
-
+    .nosotros-contain-image {
+        width: 85%;
+    }
+    
+    
 
     .nosotros-texto{
         display: flex;
         flex-direction: column;
         gap: 30px;
+    }
+    .contacto-contain-text1{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contacto-contain-map{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
 
 }
