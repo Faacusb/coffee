@@ -269,12 +269,83 @@ justify-content: space-evenly;
 }
 
 /* Section shop */
-.shop-contain{
-    background: red;
+#shop{
+    margin: 0 auto;
+    padding-top: 27px;
 }
 
+.shop-contain{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background: #bb9457;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
+.shop-card{
+    height: 450px;
+    width: 380px;
+    background-color: whitesmoke;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    /* gap: 15px; */
+    }
 
+    .texto-shop{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    text-wrap: balance;
+    }
+
+    .precio-shop{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        align-items: center;
+    }
+
+    .shop-btn span{
+    display: flex;
+    width: 100px;
+    height: 37px;
+    color: #331a15;
+    border-width: 3px;
+    border-color: #331a15;
+    font-size: 24px;
+    border-style: solid;
+    border-radius: 5px;
+    background: rgba(210,180,140,1);
+    justify-content: center;
+    }
+.precio-shop p{
+    font-size: 27px;
+    font-weight: bold;
+}
+.img-contain-shop{
+    height: 250px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: grey;
+    border-radius: 5px;
+
+}
+.shop-card-img{
+    width: 126px;
+    height: 200px;
+}
 
 /* Section contacto */
 #contacto{
@@ -385,6 +456,37 @@ justify-content: space-evenly;
 /* Media queryes tablet */
 @media (max-width: 768px){
 
+    /* header */
+
+    body{
+        width: 100%;
+    }
+
+   
+    .header__navbar ul{
+        background: brown;
+        width: 100%;
+        height: calc(100vh - 80px);
+        position: absolute;
+        top: 80px;
+        left: 0;
+        flex-direction: column;
+        display: none;
+    }
+
+    .header__navbar i{
+        display: block;
+    }
+
+    #toggle-menu:checked ~ .navbar-list{
+        display: flex;
+    }
+
+    .header__navbar ul{
+        height: auto;
+        background-color: #bc6c25;
+        padding: 10px;
+    }
 
     /* Section nosotros  */
 
@@ -421,7 +523,7 @@ justify-content: space-evenly;
         width: 100%;
     }
 
-    /* } */
+   
     .header__navbar ul{
         background: brown;
         width: 100%;
