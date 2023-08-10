@@ -53,6 +53,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 15px;
 }
 .navbar-list{
     display: flex;
@@ -93,7 +94,7 @@ body{
 #portada{
     display: flex;
     margin: 0 auto;
-    max-width: 2000px;
+    max-width: 1200px;
     height: 950px;
    background-image: url(https://assets.website-files.com/6398605b5541055872b8d486/639af71b5d394f6a82e1c7c4_Rectangle%201121.webp);
    align-items: center;
@@ -143,6 +144,8 @@ body{
 }
 
 .portada-cafe{
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     background-color: beige;
     height: 400px;
@@ -170,13 +173,16 @@ body{
 
 /* Section nosotros */
 #nosotros{
+    margin: 0 auto;
+    max-width: 1200px;
     padding-top: 27px;
     display: flex;
     background-color: white;
 }
 .nosotros-contain{
     display: flex;
-    padding: 30px;
+    padding: 30px 20px;
+    gap: 20px;
     align-items: center;
     justify-content: center;
 }
@@ -216,16 +222,17 @@ body{
 
 /* Section Nuestro CAfe */
 #nuestroCafe{
+    margin: 0 auto;
     padding-top: 26px;
     display: flex;
     flex-direction: row;
-    max-width: 2000px;
+    max-width: 1200px;
     background:url(./img/backgroundcafe.jpg) center;
     align-items: center;
     padding-bottom: 26px;
 }
 .cafe__contain{
-    max-width: 2000px;
+    max-width: 1200;
     height: auto;
     flex-wrap: wrap;
     display: flex;
@@ -237,7 +244,7 @@ body{
 }
 
 .cafe__contain-card{
-width: 380px;
+width: 370px;
 height: 400px;
 border-radius: 20px;
 background-color: whitesmoke;
@@ -269,6 +276,7 @@ justify-content: space-evenly;
 
 /* Section shop */
 #shop{
+    max-width: 1200px;
     margin: 0 auto;
     padding-top: 27px;
     background: #bb9457;
@@ -287,7 +295,7 @@ justify-content: space-evenly;
 
 .shop-card{
     height: 450px;
-    width: 380px;
+    width: 360px;
     background-color: whitesmoke;
     display: flex;
     align-content: center;
@@ -352,6 +360,8 @@ justify-content: space-evenly;
 
 /* Section contacto */
 #contacto{
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     padding: 27px 10px;
     background-color: #432818;
@@ -379,6 +389,7 @@ justify-content: space-evenly;
     gap: 10px;
     width: 50%;
     color: #f5f5f5;
+    text-align: center;
 }
 .contain--text1 p{
  font-size: 26px;
@@ -403,6 +414,8 @@ justify-content: space-evenly;
 .text-redes{
     display: flex;
     flex-direction: row;
+    text-align: center;
+    justify-content: center;
     gap: 10px;
 }
 
@@ -520,6 +533,20 @@ justify-content: space-evenly;
         flex-direction: column;
         gap: 30px;
     }
+
+/* Section nuestro cafe */
+
+.cafe__contain-card{
+    width: 350px;
+}
+
+.cafe-card-img{
+    width: 330px;
+}
+
+
+    
+    /* Section Contacto */
     .contacto-contain-text1{
         flex-direction: column;
         text-align: center;
@@ -536,7 +563,6 @@ justify-content: space-evenly;
 }
 
 
-/* Section Contacto */
 
 .text-contacto{
     flex-direction: column;
