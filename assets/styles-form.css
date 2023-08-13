@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Habibi&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body{
+    font-family: 'roboto';
+    margin: 0 auto;
+}
+
+/* header */
+.header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #432818;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+} 
+
+
+.header-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-left: 15px;
+}
+.header--logo{
+    height: 85%;
+    border-radius: 50%;
+}
+
+.header__navbar{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15px;
+}
+.navbar-list{
+    display: flex;
+    gap: 20px;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-list a{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+/* Form login */
+
+#cafe-login{
+    width: 85%;
+    height: 500px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;    
+    flex-wrap: wrap;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: #dda15e;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: rgba(126, 126, 126, 0.2) 0px 1px 6px, rgba(134, 134, 134, 0.2) 1px 1px 8px;
+}
+.form-login h2{
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.titulo-login{
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+.form-login input{
+    padding: 15px;
+}
+
+.form-login a {
+    color: whitesmoke;
+}
+
+.btn-submit{
+    background: #432818;
+    width: 50%;
+    border-radius: 15px;
+    color: whitesmoke;
+    font-size: 16px;
+    cursor: pointer;
+}
