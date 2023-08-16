@@ -68,6 +68,17 @@ body{
     color: white;
     font-size: 25px;
 }
+
+.navbar-list a:hover{
+    font-size: 32px;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+}
+
+.user__login a i:hover{
+    font-size: 32px
+}
+
+
 /* Menu hamburguesa */
 .header__navbar i{
     font-size: 36px;
