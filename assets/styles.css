@@ -325,7 +325,7 @@ justify-content: space-evenly;
     flex-direction: column;
     gap: 10px;
     text-align: center;
-    text-wrap: balance;
+    /* text-wrap: balance; */
     }
 
     .precio-shop{
