@@ -105,7 +105,7 @@ body{
 #portada{
     display: flex;
     margin: 0 auto;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     height: 950px;
    background-image: url(https://assets.website-files.com/6398605b5541055872b8d486/639af71b5d394f6a82e1c7c4_Rectangle%201121.webp);
    align-items: center;
@@ -155,7 +155,7 @@ body{
 }
 
 .portada-cafe{
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
     display: flex;
     background-color: beige;
@@ -237,14 +237,15 @@ body{
     padding-top: 26px;
     display: flex;
     flex-direction: row;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     background:url(./img/backgroundcafe.jpg) center;
     align-items: center;
     padding-bottom: 26px;
 }
 .cafe__contain{
-    max-width: 1200;
+    max-width: 1200px;
     height: auto;
+    margin: 0 auto;
     flex-wrap: wrap;
     display: flex;
     padding-top: 27px;
@@ -287,13 +288,15 @@ justify-content: space-evenly;
 
 /* Section shop */
 #shop{
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
     padding-top: 27px;
     background: #bb9457;
 }
 
 .shop-contain{
+    margin: 0 auto;
+    max-width: 1200px;
     align-items: center;
     justify-content: center;
     align-content: center;
@@ -371,7 +374,7 @@ justify-content: space-evenly;
 
 /* Section contacto */
 #contacto{
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
     display: flex;
     padding: 27px 10px;
